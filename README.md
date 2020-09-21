@@ -1,2 +1,6 @@
 # -100-Days-Coding
-First Day - Count down page.
+For the designs I have been using Ildiko ideas. https://uidesigndaily.com/ 
+
+Day 1 - Count down page.
+
+Day 2 - Landing page for web development courses.

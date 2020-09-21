@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+li {
+  padding: 1.5rem;
+  color: #0c0c2c;
+  opacity: 0.5;
+}
+
+li:first-child {
+  opacity: 1;
+}
+
+.main {
+  display: flex;
+  padding-top: 10%;
+  height: 58.4vh;
+}
+
+.right {
+  display: flex;
+}
+
+.orange {
+  margin-right: 0.5rem;
+  z-index: 2;
+  width: 150px;
+  right: 0;
+  top: 10%;
+  margin-right: 3rem;
+  position: absolute;
+  height: 400px;
+  clip-path: circle(50% at 0%);
+  transform: rotate(180deg);
+  background-color: #faa364;
+}
+
+.blue {
+  position: absolute;
+  right: 0;
+  top: 26%;
+  z-index: 3;
+  width: 0;
+  height: 0;
+  border-top: 301px solid transparent;
+  border-right: 400px solid #6454d4;
+}
+
+.peach {
+  right: 0;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  width: 600px;
+  height: 200px;
+  background-color: #f86465;
+  border-radius: 150px 0 0 150px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 15%;
+  width: 30%;
+}
+
+.left p {
+  margin: 10% 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.left button {
+  background-color: #3c9ccc;
+  border: none;
+  color: #f0f8fa;
+  padding: 3%;
+  border-radius: 5px;
+  width: 35%;
+  height: 18%;
+  font-weight: lighter;
+}
+
+.subscription {
+  background-color: #0c0c2c;
+  height: 50vh;
+  color: #f0f8fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription h1 {
+  width: 30%;
+  text-align: center;
+}
+
+.subscription p {
+  width: 25%;
+  margin: 2rem 0;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  width: 28vw;
+}
+
+.subscription input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding-left: 15px;
+}
+
+.subscription button {
+  background-color: #3c9ccc;
+  border: none;
+  color: #f0f8fa;
+  padding: 3%;
+  border-radius: 5px;
+  width: 40%;
+  height: 100%;
+  font-weight: lighter;
+}
+
+span {
+  margin: 5px;
+  color: #f0f8fa;
+  font-size: 10px;
+  opacity: 0.5;
+  left: 36%;
+}
