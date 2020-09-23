@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0D0D20;
+}
+
+.container {
+    margin-top: 20vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold;
+    width: 30vw;
+    letter-spacing: 1.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.card {
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 14vw;
+    height: 30vh;
+    background-color: #171727;
+    border-radius: 10%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.title-card{
+    font-size: larger;
+}
+
+.blue {
+    background-color: #242486;
+}
+
+.body-card {
+    padding: 1rem 0;
+}
+
+.price {
+    font-size: 1.5rem;
+}
+
+.best-price {
+    position: absolute;
+    background-color: #A0E0B2;
+    padding: 0.2rem;
+    left: 46vw;
+    text-align: center;
+    color: #0D0D20;
+    width: 100px;
+    border-radius: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    top: 40vh;
+}
+
+.price-details {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 0.2rem;
+    font-size: 15px;
+}
+
+.card-footer {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-footer i {
+    padding-left: 1rem;
+}
+
+button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #6161A7;
+    background-color: #0D0D20;
+    border: 1px solid  #6161A7;
+}
