@@ -11,3 +11,5 @@ Day 3 - Search Header UI Design.
 Day 4 - Price Cards.
 
 Day 5 - Submit form.
+
+Day 6 - Stats Card
