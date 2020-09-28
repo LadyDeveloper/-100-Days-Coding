@@ -13,3 +13,5 @@ Day 4 - Price Cards.
 Day 5 - Submit form.
 
 Day 6 - Stats Card
+
+Day 7 - Mega Menu UI Design
