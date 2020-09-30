@@ -1,0 +1,21 @@
+.wrapper {
+    background-color: #F3F3FB;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+.fa-phone {
+    color: #A82020;
+    padding: 0.5rem;
+}
+
+.btn {
+    border-radius: ;
+}
+
+.modal-footer, .modal-header {
+    border: none;
+}

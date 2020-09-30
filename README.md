@@ -15,3 +15,5 @@ Day 5 - Submit form.
 Day 6 - Stats Card
 
 Day 7 - Mega Menu UI Design
+
+Day 8 - Pop up 
