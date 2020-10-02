@@ -16,4 +16,6 @@ Day 6 - Stats Card
 
 Day 7 - Mega Menu UI Design
 
-Day 8 - Pop up 
+Day 8 - Pop up
+
+Day 9 - Subscribe Modal
