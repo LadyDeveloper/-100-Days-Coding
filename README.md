@@ -19,3 +19,5 @@ Day 7 - Mega Menu UI Design
 Day 8 - Pop up
 
 Day 9 - Subscribe Modal
+
+Day 10 - Real Estate Components
